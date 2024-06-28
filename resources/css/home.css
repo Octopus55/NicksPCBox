@@ -1,0 +1,272 @@
+/* {
+    border: 1px red solid;
+}*/
+
+body {
+    background-image: linear-gradient(aquamarine, white);
+}
+
+.navigation {
+    box-sizing: border-box;
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#pc-img {
+    height: 100%;
+    display: inline;
+    position: absolute;
+    bottom: 0;
+}
+
+#headline {
+    font-size: 100px;
+    display: inline;
+}
+
+.slot {
+    border: 2px solid lightblue;
+    display: inline-block;
+    background-color: white;
+    width: 15%;
+    aspect-ratio: 1/1;
+    vertical-align: top;
+}
+
+.slot:hover {
+    background-color: lightblue;
+    border-color: black;
+}
+
+.mon-img {
+    width: 100%;
+}
+
+.row {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+#row-1 {
+    margin-top: 1%;
+}
+
+#row-5 {
+    margin-bottom: 5%;
+}
+
+.box {
+    width: 80%;
+    margin: 0 auto;
+    background-image: linear-gradient(#6046D8, #FFFFFF);
+    border: 2px solid black;
+    position: relative;
+}
+
+/*.box:before {
+    content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 14.15%;
+  left: 4%;
+  right: 4%;
+  bottom: 4%;
+  border: 2px solid black;
+  border-radius: 2%;
+}*/
+
+@font-face {
+    font-family: "PocketMonkFont";
+    src: url(../fonts/PocketMonk-15ze.ttf) format('truetype');
+}
+
+h2 {
+    text-align: center;
+    font-size: 75px;
+    margin-top: 0;
+    margin-bottom: 2%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    background-color: #6046D8;
+    border-bottom: 2px solid black;
+    font-family: "PocketMonkFont";
+    -webkit-text-fill-color: #ffde00;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3b4cca;
+}
+
+.bad-sprite {
+    aspect-ratio: 15/14;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url(../fonts/Jost-VariableFont_wght.ttf) format('truetype');
+}
+
+.mon-title {
+    font-size: 100px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Quicksand", "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.mon-page-image {
+    width: 50%;
+    border: 1px solid #000000;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    aspect-ratio: 394/257;
+}
+
+aside {
+    margin-left: 26%;
+    font-size: 1.5rem;
+}
+
+h3 {
+    margin-left: 26%;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.arrow {
+    width: 7%; 
+    aspect-ratio: 1/1; 
+    transition: .5s; 
+    box-shadow: -2px 2px 0 black;
+}
+
+.right {
+    transform: rotate(-135deg);
+    display: inline-block;
+    margin-bottom: 20%;
+    margin-left: 9%;
+}
+  
+.left {
+    transform: rotate(45deg);
+    display: inline-block;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 20%;
+}
+
+.arrow-to-image {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.Type {
+    display: inline;
+    font-size: 3rem;
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url(../fonts/FiraSans-Regular.ttf) format('truetype');
+}
+
+.tb {
+    display: inline;
+    border: #000000 solid 1px;
+    margin-left: 0;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: .05rem 1rem;
+    font-size: 3rem;
+}
+
+.tb.Steel{
+    background-color: #5a8ea2;
+}
+
+.tb.Psychic {
+    background-color: #fa7179;
+}
+
+.tb.Poison {
+    background-color: #b567ce;
+}
+
+.tb.Water {
+    background-color: #5090d6;
+}
+
+.tb.Grass {
+    background-color: #63bc5a;
+}
+
+.tb.Ghost {
+    background-color: #655bbb;
+}
+
+.tb.Fire {
+    background-color: #ff9d55;
+}
+
+.tb.Dark {
+    background-color: #5a5465;
+}
+
+.tb.Ground {
+    background-color: #d97845;
+}
+
+.tb.Rock {
+    background-color: #c5b78c;
+}
+
+.tb.Bug {
+    background-color: #91c12f;
+}
+
+.tb.Flying {
+    background-color: #89aae3;
+}
+
+.tb.Normal {
+    background-color: #aa9;
+}
+
+.tb.Fighting {
+    background-color: #ce416b;
+}
+
+.tb.Dragon {
+    background-color: #76e;
+}
+
+.tb.Electric {
+    background-color: #f4d23c;
+}
+
+.tb.Fairy {
+    background-color: #ec8fe6;
+}
